@@ -1,13 +1,5 @@
 archive
 node_modules
-
 .idea/
-
-.jshintrc
-
-.jscsrc
-
 .travis.yml
-
-
 dist/
