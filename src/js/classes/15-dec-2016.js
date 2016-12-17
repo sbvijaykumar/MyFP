@@ -22,7 +22,7 @@
  */
 
 
-let mapper = (arr, fn) => {
+export let mapper = (arr, fn) => {
 
     let output = [];
 
@@ -89,7 +89,7 @@ console.log(output);
 
 */
 
-let reduce = (arr, fn, initial) => {
+export let reduce = (arr, fn, initial) => {
     for(var i=0;i<arr.length;i++) {
         let elem = arr[i];
         initial = fn(initial, elem);
